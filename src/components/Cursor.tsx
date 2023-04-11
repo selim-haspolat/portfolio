@@ -14,7 +14,6 @@ const Cursor: React.FC<CursorProps> = ({
   const cursorStyle = useRef<HTMLDivElement>(null);
 
   const cursor = (e: MouseEvent): void => {
-    console.log(e);
     if (cursorStyle.current) {
       cursorStyle.current.style.top = e.pageY + "px";
       cursorStyle.current.style.left = e.pageX + "px";
