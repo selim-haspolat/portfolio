@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .contactInput {
+    @apply outline-none cursor-none px-6 py-4 text-slate-500 focus:text-slate-700 border-b-4 border-indigo-200 focus:border-indigo-500 transition-all w-full rounded-sm
+  }
+}
+
+
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(30,30,30);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(240, 240, 240);
+}
