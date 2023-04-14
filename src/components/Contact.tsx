@@ -24,7 +24,7 @@ const Contact: React.FC<ContactProps> = ({ setContactHover }) => {
   };
 
   return (
-    <div id="contact" className="flex flex-col gap-16 mt-80 p-20">
+    <div id="contact" className="flex flex-col gap-16 mt-[500px] md:mt-80 p-20">
       <h1 className="text-4xl text-center font-light uppercase tracking-[1.5rem]">
         Contact
       </h1>
